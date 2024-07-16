@@ -1,0 +1,941 @@
+repo_name: Huntemall/kubernetes-ingress-controller-dev
+report_id: 8334bc5b70279bdc8bc9db84d0c19c3d
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-16T09:56:10+00:00'
+requested_by: nikolay-ngrok
+provider: github
+branch: main
+detected_tools_count: 67
+tools:
+- name: Golang
+  description: An open source programming language that makes it easy to build simple,
+    reliable, and efficient software
+  website_url: http://golang.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1005/O6AczwfV_400x400.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev
+  detection_source: Repo Metadata
+- name: Mustache
+  description: Logic-less templates
+  website_url: http://mustache.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/service/1142/197655.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev
+  detection_source: Repo Metadata
+- name: Protobuf
+  description: Google's data interchange format
+  website_url: https://developers.google.com/protocol-buffers/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Serialization Frameworks
+  image_url: https://img.stackshare.io/service/4393/ma2jqJKH_400x400.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Josh Robson Chase
+  last_updated_on: 2023-08-30 22:00:16.000000000 Z
+- name: Docker
+  description: Enterprise Container Platform for High-Velocity Innovation.
+  website_url: https://www.docker.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Virtual Machine Platforms & Containers
+  image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/.github/workflows/ci.yaml
+  detection_source: ".github/workflows/ci.yaml"
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2023-03-02 18:39:22.000000000 Z
+- name: Kubernetes
+  description: Manage a cluster of Linux containers as a single system to accelerate
+    Dev and simplify Ops
+  website_url: http://kubernetes.io/
+  version: 0.26.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Container Tools
+  image_url: https://img.stackshare.io/service/1885/21_d3cvM.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Josh Robson Chase
+  last_updated_on: 2023-08-30 22:00:16.000000000 Z
+- name: Nix
+  description: A package manager for Linux and other Unix systems
+  website_url: http://nixos.org/nix
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/4348/ET9J1uY-_400x400.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev
+  detection_source: Repo Metadata
+- name: Prometheus
+  description: An open-source service monitoring system and time series database,
+    developed by SoundCloud
+  website_url: http://prometheus.io/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Monitoring Tools
+  image_url: https://img.stackshare.io/service/2501/default_3cf1b307194b26782be5cb209d30360580ae5b3c.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: Testify
+  description: A toolkit with common assertions and mocks that plays nicely with the
+    standard library
+  website_url: https://github.com/stretchr/testify
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Go Testing
+  image_url: https://img.stackshare.io/service/8695/stretchr.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Nikolay Petrov
+  last_updated_on: 2023-11-29 19:57:50.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev
+  detection_source: Repo Metadata
+- name: gogo/protobuf
+  description: Protocol Buffers for Go with Gadgets
+  package_url: https://pkg.go.dev/github.com/gogo/protobuf
+  version: 1.1.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Josh Robson Chase
+  last_updated_on: 2023-08-30 22:00:16.000000000 Z
+  vulnerabilities:
+  - name: Improper Input Validation in GoGo Protobuf
+    cve_id: CVE-2021-3121
+    cve_url: https://github.com/advisories/GHSA-c3h9-896r-86jm
+    detected_date: Mar 30
+    severity: high
+    first_patched: 1.3.2
+- name: yaml.v2
+  description: YAML support for the Go language
+  package_url: https://pkg.go.dev/gopkg.in/yaml.v2
+  version: 2.0.0
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+  vulnerabilities:
+  - name: Excessive Platform Resource Consumption within a Loop in Kubernetes
+    cve_id: CVE-2019-11254
+    cve_url: https://github.com/advisories/GHSA-wxc4-f4m6-wwqv
+    detected_date: Jan 28
+    severity: moderate
+    first_patched: 2.2.8
+- name: afero
+  description: A FileSystem Abstraction System for Go
+  package_url: https://pkg.go.dev/github.com/spf13/afero
+  version: 1.1.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: appengine
+  description: Go App Engine packages
+  package_url: https://pkg.go.dev/google.golang.org/appengine
+  version: 1.1.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: alex bezek
+  last_updated_on: 2022-07-25 21:12:07.000000000 Z
+- name: assertion
+  description: Ginkgo's Preferred Matcher Library
+  package_url: https://pkg.go.dev/github.com/onsi/gomega/internal/assertion
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: alex bezek
+  last_updated_on: 2022-07-25 21:12:07.000000000 Z
+- name: atomic
+  description: Wrapper types for sync/atomic which enforce atomic access
+  package_url: https://pkg.go.dev/go.uber.org/atomic
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: client-go
+  description: Go client for Kubernetes
+  package_url: https://pkg.go.dev/k8s.io/client-go
+  version: 0.26.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: client_model
+  description: Data model artifacts for Prometheus
+  package_url: https://pkg.go.dev/github.com/prometheus/client_model
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: cobra
+  description: A Commander for modern Go CLI interactions
+  package_url: https://pkg.go.dev/github.com/spf13/cobra
+  version: 0.0.5
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: color
+  description: Color package for Go
+  package_url: https://pkg.go.dev/github.com/fatih/color
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: common
+  description: Go libraries shared across Prometheus components and libraries
+  package_url: https://pkg.go.dev/github.com/prometheus/common
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: easyjson
+  description: Fast JSON serializer for golang
+  package_url: https://pkg.go.dev/github.com/mailru/easyjson
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2023-01-04 03:06:54.000000000 Z
+- name: errors
+  description: Simple error handling primitives
+  package_url: https://pkg.go.dev/github.com/pkg/errors
+  version: 0.8.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: exp
+  description: Experimental and deprecated packages
+  package_url: https://pkg.go.dev/golang.org/x/exp
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: alex bezek
+  last_updated_on: 2022-07-25 21:12:07.000000000 Z
+- name: fsnotify
+  description: Cross-platform file system notifications for Go
+  package_url: https://pkg.go.dev/github.com/fsnotify/fsnotify
+  version: 1.4.7
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nikolay Petrov
+  last_updated_on: 2023-11-29 19:57:50.000000000 Z
+- name: go-colorable
+  description: Go-colorable Colorable writer for windows
+  package_url: https://pkg.go.dev/github.com/mattn/go-colorable
+  version: 0.1.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: go-difflib
+  description: Partial port of Python difflib package to Go
+  package_url: https://pkg.go.dev/github.com/pmezard/go-difflib
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: go-errors/errors
+  description: Errors with stacktraces for go
+  package_url: https://pkg.go.dev/github.com/go-errors/errors
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: go-isatty
+  description: Package isatty implements interface to isatty
+  package_url: https://pkg.go.dev/github.com/mattn/go-isatty
+  version: 0.0.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nikolay Petrov
+  last_updated_on: 2023-12-01 16:35:35.000000000 Z
+- name: go-runewidth
+  description: Go-runewidth Provides functions to get fixed width of the character
+    or string
+  package_url: https://pkg.go.dev/github.com/mattn/go-runewidth
+  version: 0.0.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2023-01-04 03:06:54.000000000 Z
+- name: go-spew
+  description: Implements a deep pretty printer for Go data structures to aid in debugging
+  package_url: https://pkg.go.dev/github.com/davecgh/go-spew
+  version: 1.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-20 04:54:56.000000000 Z
+- name: gofuzz
+  description: Fuzz testing for go
+  package_url: https://pkg.go.dev/github.com/google/gofuzz
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: golang_protobuf_extensions
+  description: Support for streaming Protocol Buffer messages for the Go language
+  package_url: https://pkg.go.dev/github.com/matttproud/golang_protobuf_extensions
+  version: 1.0.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nikolay Petrov
+  last_updated_on: 2023-12-01 16:35:35.000000000 Z
+- name: gomega
+  description: Ginkgo's Preferred Matcher Library
+  package_url: https://pkg.go.dev/github.com/onsi/gomega
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: alex bezek
+  last_updated_on: 2023-02-04 07:23:38.000000000 Z
+- name: google/uuid
+  description: 'Go package for UUIDs based on RFC 4122 and DCE 1.1: Authentication
+    and Security Services'
+  package_url: https://pkg.go.dev/github.com/google/uuid
+  version: 1.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Josh Robson Chase
+  last_updated_on: 2023-08-30 22:00:16.000000000 Z
+- name: govalidator
+  description: Package of validators and sanitizers for strings
+  package_url: https://pkg.go.dev/github.com/asaskevich/govalidator
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: groupcache
+  description: Groupcache is a caching and cache-filling library
+  package_url: https://pkg.go.dev/github.com/golang/groupcache
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: alex bezek
+  last_updated_on: 2022-07-25 21:12:07.000000000 Z
+- name: inf.v0
+  description: Package inf
+  package_url: https://pkg.go.dev/gopkg.in/inf.v0
+  version: 0.9.1
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: alex bezek
+  last_updated_on: 2022-07-25 21:12:07.000000000 Z
+- name: jpillora/backoff
+  description: Simple backoff algorithm in Go
+  package_url: https://pkg.go.dev/github.com/jpillora/backoff
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-20 04:54:56.000000000 Z
+- name: json-iterator/go
+  description: A high-performance 100% compatible drop-in replacement of "encoding/json"
+  package_url: https://pkg.go.dev/github.com/json-iterator/go
+  version: 1.1.12
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2023-01-04 03:06:54.000000000 Z
+- name: json-patch
+  description: A Go library to apply RFC6902 patches and create and apply RFC7386
+    patches
+  package_url: https://pkg.go.dev/github.com/evanphx/json-patch
+  version: 0.5.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2023-01-04 03:06:54.000000000 Z
+- name: jsonpointer
+  description: Fork of gojsonpointer with support for structs
+  package_url: https://pkg.go.dev/github.com/go-openapi/jsonpointer
+  version: 0.17.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2023-01-04 03:06:54.000000000 Z
+- name: jsonreference
+  description: Fork of gojsonreference with support for structs
+  package_url: https://pkg.go.dev/github.com/go-openapi/jsonreference
+  version: 0.17.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2023-01-04 03:06:54.000000000 Z
+- name: log15
+  description: Structured, composable logging for Go
+  package_url: https://pkg.go.dev/github.com/inconshreveable/log15
+  version: 3.0.0
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: logr
+  description: A simple logging interface for Go
+  package_url: https://pkg.go.dev/github.com/go-logr/logr
+  version: 1.2.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: mapstructure
+  description: Go library for decoding generic map values into native Go structures
+  package_url: https://pkg.go.dev/github.com/mitchellh/mapstructure
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: mergo
+  description: 'Mergo: merging Go structs and maps since 2013'
+  package_url: https://pkg.go.dev/github.com/imdario/mergo
+  version: 0.3.5
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2023-01-09 21:29:14.000000000 Z
+- name: mock
+  description: GoMock is a mocking framework for the Go programming language
+  package_url: https://pkg.go.dev/github.com/golang/mock
+  version: 1.1.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Euan Kemp
+  last_updated_on: 2023-04-03 07:45:20.000000000 Z
+- name: mousetrap
+  description: Detect starting from Windows explorer
+  package_url: https://pkg.go.dev/github.com/inconshreveable/mousetrap
+  version: 1.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: net
+  description: Go supplementary network libraries
+  package_url: https://pkg.go.dev/golang.org/x/net
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: alex bezek
+  last_updated_on: 2022-07-25 21:12:07.000000000 Z
+- name: oauth2
+  description: Go OAuth2
+  package_url: https://pkg.go.dev/golang.org/x/oauth2
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: perks
+  description: Effective Computation of Things
+  package_url: https://pkg.go.dev/github.com/beorn7/perks
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: alex bezek
+  last_updated_on: 2022-07-25 21:12:07.000000000 Z
+- name: pflag
+  description: Drop-in replacement for Go's flag package
+  package_url: https://pkg.go.dev/github.com/spf13/pflag
+  version: 1.0.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: alex bezek
+  last_updated_on: 2022-07-25 21:12:07.000000000 Z
+- name: procfs
+  description: Procfs provides functions to retrieve system
+  package_url: https://pkg.go.dev/github.com/prometheus/procfs
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: proto
+  description: Go support for Google's protocol buffers
+  package_url: https://pkg.go.dev/github.com/golang/protobuf/proto
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.mod
+  detection_source: go.mod
+  last_updated_by: Josh Robson Chase
+  last_updated_on: 2023-08-30 22:00:16.000000000 Z
+- name: reflect2
+  description: Reflect api without runtime reflect.Value cost
+  package_url: https://pkg.go.dev/github.com/modern-go/reflect2
+  version: 1.0.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: shlex
+  description: Automatically exported from code.google.com/p/go-shlex
+  package_url: https://pkg.go.dev/github.com/google/shlex
+  version: 0.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Euan Kemp
+  last_updated_on: 2022-07-27 02:17:06.000000000 Z
+- name: stack
+  description: Package stack implements utilities to capture
+  package_url: https://pkg.go.dev/github.com/go-stack/stack
+  version: 1.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-20 04:54:56.000000000 Z
+- name: swag
+  description: Goodie bag in use in the go-openapi projects
+  package_url: https://pkg.go.dev/github.com/go-openapi/swag
+  version: 0.17.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: sys
+  description: Go packages for low-level interaction with the operating system
+  package_url: https://pkg.go.dev/golang.org/x/sys
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: alex bezek
+  last_updated_on: 2022-07-25 21:12:07.000000000 Z
+- name: tablewriter
+  description: ASCII table in golang
+  package_url: https://pkg.go.dev/github.com/olekukonko/tablewriter
+  version: 0.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: text
+  description: Go text processing support
+  package_url: https://pkg.go.dev/golang.org/x/text
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Nikolay Petrov
+  last_updated_on: 2023-12-01 16:35:35.000000000 Z
+- name: tools
+  description: Go Tools
+  package_url: https://pkg.go.dev/golang.org/x/tools
+  version: 0.0.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2023-04-24 01:40:42.000000000 Z
+- name: treeprint
+  description: Package treeprint provides a simple ASCII tree composing tool
+  package_url: https://pkg.go.dev/github.com/xlab/treeprint
+  version: 0.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
+- name: zap
+  description: Blazing fast, structured, leveled logging in Go
+  package_url: https://pkg.go.dev/go.uber.org/zap
+  version: 1.10.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: alex bezek
+  last_updated_on: 2022-07-25 21:12:07.000000000 Z
+- name: zapr
+  description: A logr implementation using Zap
+  package_url: https://pkg.go.dev/github.com/go-logr/zapr
+  version: 1.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Go Modules Packages
+  image_url: https://img.stackshare.io/package/go-packages/image.png
+  detection_source_url: https://github.com/Huntemall/kubernetes-ingress-controller-dev/blob/main/go.sum
+  detection_source: go.mod
+  last_updated_by: Jonathan Stacks
+  last_updated_on: 2022-12-30 22:05:17.000000000 Z
