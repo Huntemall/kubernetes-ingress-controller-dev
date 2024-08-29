@@ -11,11 +11,12 @@
     {
       devShells.default = pkgs.mkShell {
         buildInputs = with pkgs; [
-          go_1_20
+          go # go 1.22.2
           gotools
           go-tools
           golangci-lint
           kubernetes-helm
+          kubebuilder
           jq
           yq
         ];
